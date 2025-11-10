@@ -2,7 +2,7 @@ import os, shutil, random
 from pathlib import Path
 
 random.seed(42)
-src_root = Path("dataset_all")
+src_root = Path("DS")
 dst_root = Path("dataset")
 splits = ["train", "val", "test"]
 
